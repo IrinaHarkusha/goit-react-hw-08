@@ -8,7 +8,7 @@ function SearchBox({ searchStr }) {
 
   return (
     <div className={s.wrap}>
-      <h2>Find contacts by name</h2>
+      <h2 className={s.title}>Find contacts by name</h2>
       <input
         value={searchStr}
         onChange={e => dispatch(changeSearchStr(e.target.value))}

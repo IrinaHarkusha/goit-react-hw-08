@@ -36,3 +36,8 @@ a{
 a:hover{
   color: rgba(97, 92, 92, 0.948);
 }
+
+h1{
+  color: white;
+  text-align: center;
+}

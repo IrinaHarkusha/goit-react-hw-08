@@ -29,3 +29,15 @@ label {
     color: rgb(178, 3, 3);
     font-size: 12px;
 }
+.btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(73, 70, 70);
+    color: white;
+}

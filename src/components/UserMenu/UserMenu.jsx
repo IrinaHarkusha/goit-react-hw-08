@@ -9,12 +9,12 @@ function UserMenu() {
 
   return (
     <div className={s.wrap}>
-      <NavLink to="/contacts">Phone Book</NavLink>
-      <button onClick={() => {
+      <NavLink to="/contacts">PhoneBook</NavLink>
+      <button className={s.btn} onClick={() => {
         navigate('/')
         dispatch(logoutThunk())
         
-      }}>Logout</button>
+      }}>Log out</button>
     </div>
   )
 }

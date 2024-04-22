@@ -3,12 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
+  margin: auto;
   padding: 20px;
   background: white;
   border: 2px solid #242424;
   border-radius: 15px;
   width: 300px;
+  background-color: transparent;
+  color: white;
 }
 
 h2 {
@@ -24,4 +26,10 @@ h2 {
 }
 .btn {
   margin-top: 16px;
+}
+.title{
+  font-size: 24px;
+}
+::placeholder{
+  color: white;
 }

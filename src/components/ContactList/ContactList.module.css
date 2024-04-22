@@ -2,6 +2,7 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    margin: 50px;
 }
 
 .title {
@@ -10,5 +11,6 @@
 .text {
     font-size: 36px;
     text-align: center;
-    color: grey;
+    color: white;
+    margin-top: 50px;
 }
