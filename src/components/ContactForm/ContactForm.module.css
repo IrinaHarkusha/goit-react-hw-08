@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+    padding: 20px;
+    border: 2px solid #242424;
+    border-radius: 5%;
+    background: white;
+    width: 200px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input {
+    width: 96%;
+    color: #242424;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.red {
+    color: rgb(178, 3, 3);
+    font-size: 12px;
+}

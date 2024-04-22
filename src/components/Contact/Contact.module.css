@@ -1,0 +1,24 @@
+.item {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    border: 2px solid #242424;
+    border-radius: 15px;
+    width: 280px;
+}
+
+.btn {
+    display: flex;
+    padding: 5px 10px;
+    margin-left: auto;
+    font-size: 18px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(73, 70, 70);
+}
